@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "commonjs",
+    "rootDir": "./src", //humara sara TypeScript code src folder me hoga
+    "outDir": "./dist", //compile hone ke baad JavaScript file dist me jayegi
+    "strict": true, //type checking on karta hai (undefined variables, wrong types) detect krta hai
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
